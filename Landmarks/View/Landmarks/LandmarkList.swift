@@ -17,6 +17,7 @@ struct LandmarkList: View {
     }
     
     var body: some View {
+        
         NavigationSplitView {
             List() {
                 Toggle(isOn: $showFavoriteOnly) {
