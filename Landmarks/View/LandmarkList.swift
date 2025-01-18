@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct LandmarkList: View {
     @State private var showFavoriteOnly = false
     var filteredLandmarks: [Landmark] {
